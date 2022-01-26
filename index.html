@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Position Training 2</title>
+</head>
+<body>
+
+    <!--Parte de cima-->
+
+
+    <header class="header">
+        <button class="botao1" id="github"><a style="text-decoration: none; color: white" target="_blank" href="https://github.com/gabrielrodrig0">gabrielrodrig0</a></button>
+        <h1 class="interrogacao" id="interrogacao">?</h1>
+        <button class="botao1" id="again">Tente novamente</button>
+        
+        
+    </header>
+
+    <main class="main" id="main">
+
+        <p class="description" id="description">De 0 a 20</p>
+        <h1 class="title" id="title">ADIVINHE O NÚMERO</h1>
+        <p class="description" id="description-choice">...</p>
+
+        <section class="container" id="container">
+            <input type="number" id="number" class="number" max="20" min="0">
+            <button class="check" id="check">Checar!</button>
+
+            <div class="list">
+                <p class="description2" id="recordeP">&#128640; Recorde: <span id="recorde">0</span></p>
+                <p class="description2" id="chancesP">&#128163; Chances: <span id="chances">10</span></p>
+                
+            </div>
+
+        </section>
+
+
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>

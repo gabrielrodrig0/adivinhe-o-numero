@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Rajdhani&family=Saira:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Saira', sans-serif;
+    font-weight: bold;
+}
+
+body {
+   background-color: #241E1E;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin: 50px 0;
+    justify-content: center;
+ 
+}
+
+#again {
+    padding: 10px;
+    background-color: #34515A;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+
+}
+
+#interrogacao {  
+    background-color: #34515A;
+    color: #fff;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 4rem;
+}
+
+#github {
+    padding: 10px;
+    background-color: #34515A;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.main {
+    height: 60vh;
+    background-color: #34515A;
+    position: relative;
+    width: auto;
+}
+
+.description {
+    text-align: center;
+    padding-top: 10px ;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;   
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.number {
+    height: 100px;
+    font-size: 3rem;
+    background-color: #241E1E;
+    color: white;
+}
+
+.check {
+    height: 100px;
+    font-size: 3rem;
+    width: 200px;
+    background-color: #241E1E;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.list {
+    height: 100px;
+    font-size: 1.5rem;
+    width: 200px;
+    background-color: #241E1E;
+    color: white;
+    border: none;
+    text-align: center; 
+}
+
+.description2 {
+    padding-top:5px;
+    text-align:center;
+}
+
+/*Mobile*/
+
+@media screen and (max-width:599px){
+
+    #interrogacao {
+    
+        background-color: #34515A;
+        color: #fff;
+        margin:0 100px;
+    }
+}
+@media screen and (max-width:700px){
+
+    .main {
+        height: 600px;
+    }
+    .title {
+        font-size: 3rem;
+    }
+    #interrogacao {
+        flex-flow: initial;
+    }
+}
